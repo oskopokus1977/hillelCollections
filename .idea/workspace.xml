@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27f5ae16-e1cb-4d72-9940-afcc3433a860" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hillelCollections/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../hillelCollections/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hillelCollections/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hillelCollections/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hillelCollections/src/main/java/edu/hillel/MultiSet.java" afterPath="$PROJECT_DIR$/../hillelCollections/src/main/java/edu/hillel/MultiSet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hillelCollections/src/test/java/TestMultiSet.java" afterPath="$PROJECT_DIR$/../hillelCollections/src/test/java/TestMultiSet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../hillelCollections/out/" />
@@ -29,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiSet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MultiSet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../hillelCollections/src/main/java/edu/hillel/MultiSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="123">
+              <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#160#161#0" expanded="true" />
@@ -43,13 +41,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMultiSet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestMultiSet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../hillelCollections/src/test/java/TestMultiSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="463">
+              <caret line="44" column="52" lean-forward="false" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
               <folding>
-                <element signature="e#262#271#0" expanded="true" />
+                <element signature="e#261#270#0" expanded="true" />
+                <element signature="e#588#596#0" expanded="true" />
+                <element signature="e#1057#1068#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMultiSet">
+  <component name="RunManager" selected="JUnit.TestMultiSet.containsTest">
     <configuration name="TestMultiSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="hillelCollectionsMaven" />
@@ -232,6 +232,46 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMultiSet" />
       <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestMultiSet.containsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="hillelCollectionsMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMultiSet" />
+      <option name="METHOD_NAME" value="containsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestMultiSet.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="hillelCollectionsMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMultiSet" />
+      <option name="METHOD_NAME" value="removeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -337,14 +377,18 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestMultiSet.addTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestMultiSet" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestMultiSet.removeTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestMultiSet.containsTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestMultiSet" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestMultiSet.addTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestMultiSet.containsTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestMultiSet.removeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestMultiSet" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestMultiSet.addTest" />
       </list>
     </recent_temporary>
   </component>
@@ -362,23 +406,19 @@
       <option name="presentableId" value="Default" />
       <updated>1507566748599</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tests">
+      <created>1507752127605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507752127605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestApplication - 2017.10.09 at 20h 42m 22s.xml">
-      <configuration name="TestApplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMultiSet - 2017.10.11 at 22h 59m 24s.xml">
-      <configuration name="TestMultiSet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMultiSet - 2017.10.11 at 23h 01m 17s.xml">
       <configuration name="TestMultiSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMultiSet_addTest - 2017.10.11 at 22h 15m 45s.xml">
-      <configuration name="TestMultiSet.addTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMultiSet_addTest - 2017.10.11 at 22h 58m 07s.xml">
-      <configuration name="TestMultiSet.addTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestMultiSet_addTest - 2017.10.11 at 22h 59m 42s.xml">
       <configuration name="TestMultiSet.addTest" configurationId="JUnit" />
@@ -388,6 +428,24 @@
     </history-entry>
     <history-entry file="TestMultiSet_addTest - 2017.10.11 at 23h 00m 19s.xml">
       <configuration name="TestMultiSet.addTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMultiSet_containsTest - 2017.10.11 at 23h 20m 55s.xml">
+      <configuration name="TestMultiSet.containsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMultiSet_containsTest - 2017.10.11 at 23h 21m 09s.xml">
+      <configuration name="TestMultiSet.containsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMultiSet_containsTest - 2017.10.11 at 23h 21m 25s.xml">
+      <configuration name="TestMultiSet.containsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMultiSet_removeTest - 2017.10.11 at 23h 06m 12s.xml">
+      <configuration name="TestMultiSet.removeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMultiSet_removeTest - 2017.10.11 at 23h 06m 22s.xml">
+      <configuration name="TestMultiSet.removeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMultiSet_removeTest - 2017.10.11 at 23h 07m 55s.xml">
+      <configuration name="TestMultiSet.removeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -424,6 +482,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -495,24 +557,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hillelCollections/src/test/java/TestMultiSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#262#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../hillelCollections/src/main/java/edu/hillel/MultiSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="123">
+          <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hillelCollections/src/test/java/TestMultiSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="44" column="52" lean-forward="false" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+          <folding>
+            <element signature="e#261#270#0" expanded="true" />
+            <element signature="e#588#596#0" expanded="true" />
+            <element signature="e#1057#1068#0" expanded="true" />
           </folding>
         </state>
       </provider>
