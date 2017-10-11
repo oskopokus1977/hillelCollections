@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MultiSet<T> {
-    private HashMap<T, Integer> hashMap;
+    public HashMap<T, Integer> hashMap;
 
     public MultiSet() {
         hashMap = new HashMap<T, Integer>();
