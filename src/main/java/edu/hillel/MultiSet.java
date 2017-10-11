@@ -80,8 +80,8 @@ public class MultiSet<T> {
         return newMS;
     }
 
-    public MultiSet uniquSet(){
-        MultiSet<T>uniqMS = new MultiSet<T>();
+    public MultiSet uniquSet() {
+        MultiSet<T> uniqMS = new MultiSet<T>();
         for (T r : hashMap.keySet()) {
             uniqMS.add(r);
         }
