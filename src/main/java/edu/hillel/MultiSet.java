@@ -59,11 +59,12 @@ public class MultiSet<T> {
 
     public MultiSet union(MultiSet<T> multiSet) {
         MultiSet<T> newMS = new MultiSet<T>();
+        newMS.hashMap.putAll(hashMap);
         for (Map.Entry<T, Integer> pair : multiSet.hashMap.entrySet()) {
             if (hashMap.containsKey(pair.getKey())) {
                 newMS.hashMap.put(pair.getKey(), (hashMap.get(pair.getKey()) + multiSet.hashMap.get(pair.getKey())));
             } else {
-                hashMap.put(pair.getKey(), 1);
+                newMS.hashMap.put(pair.getKey(), 1);
             }
         }
         return newMS;

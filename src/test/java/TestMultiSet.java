@@ -44,4 +44,28 @@ public class TestMultiSet {
         Assert.assertEquals(multiSet.contains('A'),2);
         Assert.assertEquals(multiSet.contains('X'),0);
     }
+
+    @Test
+    public void sizeTest(){
+        MultiSet<Character> multiSet = new MultiSet<Character>();
+        Assert.assertEquals(multiSet.size(),0);
+        multiSet.add('Y');
+        Assert.assertEquals(multiSet.size(),1);
+    }
+
+    @Test
+    public void unionTest(){
+        MultiSet<Integer> multiSet1 = new MultiSet<Integer>();
+        multiSet1.add(1);
+        multiSet1.add(2);
+        multiSet1.add(2);
+
+        MultiSet<Integer> multiSet2 = new MultiSet<Integer>();
+        multiSet2.add(1);
+        multiSet2.add(1);
+        multiSet2.add(3);
+
+        MultiSet<Integer>unionSet = multiSet1.union(multiSet2);
+        Assert.assertTrue(unionSet.hashMap.size()== 3);
+    }
 }
