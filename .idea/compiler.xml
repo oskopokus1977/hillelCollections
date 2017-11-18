@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hillelCollections" />
+        <module name="hillelCollectionsMaven" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hillelCollections" target="1.5" />
+      <module name="hillelCollectionsMaven" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

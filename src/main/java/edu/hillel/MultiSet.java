@@ -37,7 +37,7 @@ public class MultiSet<T> {
                 hashMap.remove(e);
             }
         } else {
-            System.out.println("Object " + e + " is absent in the set");
+            System.out.println("Object " + e + " is absent in the set!");
         }
     }
 
